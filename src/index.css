@@ -25,24 +25,33 @@ body {
   margin: 10px 0;
   padding: 10px;
 } */
+.comment-image{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-top: 50px;
+  margin-right: 20px;
+}
 
 .comment-header {
   display: flex;
   justify-content: space-between;
   /* margin-bottom: 10px; */
 }
-comment-image{
+/* comment-image{
   width: 50px;
   height: 50px;
   border-radius: 50%;
   margin-left: 20px;
   margin-top: 10px;
-}
+} */
 
 .comment-author {
   color:#c6c8ca;
   font-weight: bold;
   text-decoration: none;
+  /* margin-bottom: 30px; */
 }
 
 .comment-message {

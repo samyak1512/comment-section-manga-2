@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Comment from "./Comment";
 import ReplyForm from "./ReplyForm";
 import "./index.css";
-import image from "./profileIcon_mgukerzbivna1.jpg";
+// import image from "./profileIcon_mgukerzbivna1.jpg";
 
 
 {/* <Comment
@@ -58,6 +58,7 @@ const CommentList = ({ comments }) => {
         <div key={index} className="comment-container">
           <Comment
             author={comment.author}
+            image = {comment.image}
             message={comment.message}
             onDelete={() => handleDelete(index)}
             onReply={() =>
